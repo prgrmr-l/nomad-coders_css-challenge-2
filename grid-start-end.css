@@ -1,0 +1,34 @@
+body {
+  grid-template-columns: repeat(6, 142px);
+  grid-template-rows: repeat(22, 38px);
+}
+
+.header {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.main-left,
+.main-right {
+  grid-row-start: 4;
+  grid-row-end: 14;
+}
+
+.main-left {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+.main-right {
+  grid-column-start: 5;
+  grid-column-end: 7;
+}
+
+.footer {
+  grid-row-start: 14;
+  grid-row-end: 23;
+  grid-column-start: 1;
+  grid-column-end: 7;
+}
