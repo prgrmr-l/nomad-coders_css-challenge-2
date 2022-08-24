@@ -1,7 +1,7 @@
 body {
   display: grid;
-  grid-template-columns: repeat(5, 189px);
-  grid-template-rows: repeat(7, 155px);
+  grid-template-columns: repeat(7, 145px);
+  grid-template-rows: repeat(9, 155px);
   justify-content: center;
   padding-top: 20px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -20,7 +20,7 @@ body {
   color: #a5a6a0;
   padding-bottom: 20px;
   grid-column-start: 1;
-  grid-column-end: 6;
+  grid-column-end: 8;
   justify-content: space-between;
 }
 
@@ -28,7 +28,7 @@ body {
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  margin-left: 20px;
+  margin-left: 25px;
 }
 
 .header-center {
@@ -42,7 +42,7 @@ body {
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  margin-right: 115px;
+  margin-right: 25px;
 }
 
 .main-left,
@@ -53,10 +53,10 @@ body {
 
 .main-left {
   grid-column-start: 1;
-  grid-column-end: 4;
+  grid-column-end: 6;
 }
 
 .main-right {
-  grid-column-start: 4;
-  grid-column-end: 6;
+  grid-column-start: 6;
+  grid-column-end: 8;
 }
